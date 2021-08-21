@@ -142,7 +142,7 @@ align-items: center;
 .hamburger:focus {
     outline: none;
 }
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:730px) {
     .hamburger {
         display:block;
         border:0;
@@ -165,22 +165,79 @@ align-items: center;
         padding:5px;
     }
 
-    logo {
+    .logo {
         margin:2px;
         padding:0;
+       
+    }
+    .l1{
+        height: 50px;
+        width: 50px;
+        border-radius:50% ;
+    }
+    .t1{
+        font-size: 30px;
+        margin-bottom: 10px;
+        
+    }
+    .t2{
+        font-weight: 500;
+        font-size: 35px;
+        color: #ef744b;
+    }
+    .t3{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .t4{
+        font-weight: 500;
+        font-size: 50px;
+        text-align: center;
+    }
+    .button{
+        width: 120px;
+        height: 30px;
+    }
+    .s1{
+        height: 30px;
+        color: #ef744b
+    }
+    .headshot{
+        height: 150px;
+        border-radius: 20px;
+        
+    }
+    .a1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .about-text{
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0.1rem;
+        
+        
     }
 
-    hero {
+    .img{
+        text-align: center;
+        justify-content: space-between;
+    }
+    
+
+    .hero {
         font-size: 30px;
     }
+    
         
-        .hero-text {
-            margin-left:40px;
-        }
+    .hero-text {
+        margin-left:40px;
+    }
 
-        .sub-section {
-            display: flex;
-            flex-wrap:wrap-reverse;
-            padding: 40px;
-        }
+    .sub-section {
+        display: flex;
+        flex-wrap:wrap-reverse;
+        padding: 40px;
+    }
 }
